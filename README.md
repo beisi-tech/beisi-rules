@@ -5,4 +5,4 @@
 
 [Read text rules](/text_rules/README.md) 
 
-[Read project structure](/README.md)
+[Read project structure](/project_demo/project_demo.md)
