@@ -1,6 +1,8 @@
 # beisi-rules
+[Read code rules](/code_rules/code_rules.md)  
+
+[Read name rules](/name_rules/name_rules.md)  
+
 [Read text rules](/text_rules/README.md) 
 
-[Read code rules](/text_rules/README.en.md)  
-
-[Read name rules](/name_rules/name_rules.md)
+[Read project structure](/README.md)
