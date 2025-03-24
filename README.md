@@ -1,4 +1,6 @@
 # beisi-rules
-[Read texting rules](/texting-rules/README.md) 
+[Read text rules](/text_rules/README.md) 
 
-[Read coding rules](/texting-rules/README.en.md)
+[Read code rules](/text_rules/README.en.md)  
+
+[Read name rules](/name_rules/name_rules.md)
