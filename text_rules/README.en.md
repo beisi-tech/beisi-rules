@@ -1,34 +1,38 @@
 # Chinese Copywriting Guidelines
+
 Chinese copywriting guidelines for better written communication.
 Other languages:
+
 - [Chinese Simplified](README.md)
 
------
+---
 
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
 
-* [Spacing](#spacing)
-    * [Place one space before/after English words](#place-one-space-beforeafter-english-words)
-    * [Place one space before/after numbers](#place-one-space-beforeafter-numbers)
-    * [No space between numbers and units](#no-space-between-numbers-and-units)
-    * [No additional spaces before/after punctuation in fullwidth form](#no-additional-spaces-beforeafter-punctuation-in-fullwidth-form)
-    * [`-ms-text-autospace` to the rescue?](#-ms-text-autospace-to-the-rescue)
-* [Punctuation](#punctuation)
-    * [Avoid duplicate punctuation](#avoid-duplicate-punctuation)
-* [Fullwidth and halfwidth](#fullwidth-and-halfwidth)
-    * [Use punctuation in fullwidth form](#use-punctuation-in-fullwidth-form)
-    * [Use numbers in halfwidth form](#use-numbers-in-halfwidth-form)
-    * [Use punctuation in halfwidth form for English sentences](#use-punctuation-in-halfwidth-form-for-english-sentences)
-* [Nouns](#nouns)
-    * [Avoid jargons](#avoid-jargons)
-* [Dispute](#dispute)
-    * [Add extra spaces before/after links](#add-extra-spaces-beforeafter-links)
-    * [Use corner brackets for Chinese Simplified](#use-corner-brackets-for-chinese-simplified)
-* [Tools](#tools)
-* [Examples of “Who is doing this?”](#examples-of-who-is-doing-this)
-* [References](#references)
+- [Chinese Copywriting Guidelines](#chinese-copywriting-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [Spacing](#spacing)
+    - [Place one space before/after English words](#place-one-space-beforeafter-english-words)
+    - [Place one space before/after numbers](#place-one-space-beforeafter-numbers)
+    - [No space between numbers and units](#no-space-between-numbers-and-units)
+    - [No additional spaces before/after punctuation in fullwidth form](#no-additional-spaces-beforeafter-punctuation-in-fullwidth-form)
+    - [`-ms-text-autospace` to the rescue?](#-ms-text-autospace-to-the-rescue)
+  - [Punctuation](#punctuation)
+    - [Avoid duplicate punctuation](#avoid-duplicate-punctuation)
+  - [Fullwidth and halfwidth](#fullwidth-and-halfwidth)
+    - [Use punctuation in fullwidth form](#use-punctuation-in-fullwidth-form)
+    - [Use numbers in halfwidth form](#use-numbers-in-halfwidth-form)
+    - [Use punctuation in halfwidth form for English sentences](#use-punctuation-in-halfwidth-form-for-english-sentences)
+  - [Nouns](#nouns)
+    - [Avoid jargons](#avoid-jargons)
+  - [Dispute](#dispute)
+    - [Add extra spaces before/after links](#add-extra-spaces-beforeafter-links)
+    - [Use corner brackets for Chinese Simplified](#use-corner-brackets-for-chinese-simplified)
+  - [Tools](#tools)
+  - [Examples of “Who is doing this?”](#examples-of-who-is-doing-this)
+  - [References](#references)
 
 <!-- vim-markdown-toc -->
 
@@ -46,15 +50,15 @@ Good:
 
 Bad:
 
-> 在LeanCloud上，数据存储是围绕`AVObject`进行的。
+> 在 LeanCloud 上，数据存储是围绕`AVObject`进行的。
 
-> 在 LeanCloud上，数据存储是围绕`AVObject` 进行的。
+> 在 LeanCloud 上，数据存储是围绕`AVObject` 进行的。
 
 An example of complete and correct usage:
 
 > 在 LeanCloud 上，数据存储是围绕 `AVObject` 进行的。每个 `AVObject` 都包含了与 JSON 兼容的 key-value 对应的数据。数据是 schema-free 的，你不需要在每个 `AVObject` 上提前指定存在哪些键，只要直接设定对应的 key-value 即可。
 
-Exceptions: For product and brand names, please refer to the writing format of the official definition. For example, use “豆瓣FM” instead of “豆瓣 FM”.
+Exceptions: For product and brand names, please refer to the writing format of the official definition. For example, use “豆瓣 FM” instead of “豆瓣 FM”.
 
 ### Place one space before/after numbers
 
@@ -64,9 +68,9 @@ Good:
 
 Bad:
 
-> 今天出去买菜花了 5000元。
+> 今天出去买菜花了 5000 元。
 
-> 今天出去买菜花了5000元。
+> 今天出去买菜花了 5000 元。
 
 ### No space between numbers and units
 
@@ -104,7 +108,7 @@ Bad:
 
 ### `-ms-text-autospace` to the rescue?
 
-Microsoft provides a CSS property [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx) that can specify the autospacing and narrow space width adjustment of text. However it's not popular, and on other platforms such as OS X and iOS we can not use this feature. So it's better for you to keep up the habit.
+Microsoft provides a CSS property [`-ms-text-autospace`](<http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx>) that can specify the autospacing and narrow space width adjustment of text. However it's not popular, and on other platforms such as OS X and iOS we can not use this feature. So it's better for you to keep up the habit.
 
 ## Punctuation
 
@@ -216,35 +220,35 @@ compared with:
 
 ## Tools
 
-Repository| Language
---- | ---
-[vinta/paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing) | JavaScript
-[huei90/pangu.node](https://github.com/huei90/pangu.node) | Node.js
-[huacnlee/auto-correct](https://github.com/huacnlee/auto-correct) | Ruby
-[sparanoid/space-lover](https://github.com/sparanoid/space-lover) | PHP (WordPress)
-[nauxliu/auto-correct](https://github.com/NauxLiu/auto-correct) | PHP
-[hotoo/pangu.vim](https://github.com/hotoo/pangu.vim) | Vim
-[sparanoid/grunt-auto-spacing](https://github.com/sparanoid/grunt-auto-spacing) | Node.js (Grunt)
-[hjiang/scripts/add-space-between-latin-and-cjk](https://github.com/hjiang/scripts/blob/master/add-space-between-latin-and-cjk) | Python
+| Repository                                                                                                                      | Language        |
+| ------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| [vinta/paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing)                                                   | JavaScript      |
+| [huei90/pangu.node](https://github.com/huei90/pangu.node)                                                                       | Node.js         |
+| [huacnlee/auto-correct](https://github.com/huacnlee/auto-correct)                                                               | Ruby            |
+| [sparanoid/space-lover](https://github.com/sparanoid/space-lover)                                                               | PHP (WordPress) |
+| [nauxliu/auto-correct](https://github.com/NauxLiu/auto-correct)                                                                 | PHP             |
+| [hotoo/pangu.vim](https://github.com/hotoo/pangu.vim)                                                                           | Vim             |
+| [sparanoid/grunt-auto-spacing](https://github.com/sparanoid/grunt-auto-spacing)                                                 | Node.js (Grunt) |
+| [hjiang/scripts/add-space-between-latin-and-cjk](https://github.com/hjiang/scripts/blob/master/add-space-between-latin-and-cjk) | Python          |
 
 ## Examples of “Who is doing this?”
 
-Website | Copywriting | UGC
---- | --- | ---
-[Apple China](http://www.apple.com/cn/) | Yes | N/A
-[Apple Hong Kong](http://www.apple.com/hk/) | Yes | N/A
-[Apple Taiwan](http://www.apple.com/tw/) | Yes | N/A
-[Microsoft China](http://www.microsoft.com/zh-cn/) | Yes | N/A
-[Microsoft Hong Kong](http://www.microsoft.com/zh-hk/) | Yes | N/A
-[Microsoft Taiwan](http://www.microsoft.com/zh-tw/) | Yes | N/A
-[LeanCloud](https://leancloud.cn/) | Yes | N/A
-[Zhihu](https://www.zhihu.com/) | Yes | Partial
-[V2EX](https://www.v2ex.com/) | Yes | Yes
-[SegmentFault](https://segmentfault.com/) | Yes | Partial
-[Apple4us](http://apple4us.com/) | Yes | N/A
-[Wandoujia](https://www.wandoujia.com/) | Yes | N/A
-[Ruby China](https://ruby-china.org/) | Yes | Partial
-[PHPHub](https://phphub.org/) | Yes | Partial
+| Website                                                | Copywriting | UGC     |
+| ------------------------------------------------------ | ----------- | ------- |
+| [Apple China](http://www.apple.com/cn/)                | Yes         | N/A     |
+| [Apple Hong Kong](http://www.apple.com/hk/)            | Yes         | N/A     |
+| [Apple Taiwan](http://www.apple.com/tw/)               | Yes         | N/A     |
+| [Microsoft China](http://www.microsoft.com/zh-cn/)     | Yes         | N/A     |
+| [Microsoft Hong Kong](http://www.microsoft.com/zh-hk/) | Yes         | N/A     |
+| [Microsoft Taiwan](http://www.microsoft.com/zh-tw/)    | Yes         | N/A     |
+| [LeanCloud](https://leancloud.cn/)                     | Yes         | N/A     |
+| [Zhihu](https://www.zhihu.com/)                        | Yes         | Partial |
+| [V2EX](https://www.v2ex.com/)                          | Yes         | Yes     |
+| [SegmentFault](https://segmentfault.com/)              | Yes         | Partial |
+| [Apple4us](http://apple4us.com/)                       | Yes         | N/A     |
+| [Wandoujia](https://www.wandoujia.com/)                | Yes         | N/A     |
+| [Ruby China](https://ruby-china.org/)                  | Yes         | Partial |
+| [PHPHub](https://phphub.org/)                          | Yes         | Partial |
 
 ## References
 

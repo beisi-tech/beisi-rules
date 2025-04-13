@@ -1,8 +1,10 @@
 # 中文文案排版指北
+
 Other languages:
+
 - [English](README.en.md)
 
------
+---
 
 ## 目录
 
@@ -48,15 +50,15 @@ Other languages:
 
 错误：
 
-> 在LeanCloud上，数据存储是围绕`AVObject`进行的。
+> 在 LeanCloud 上，数据存储是围绕`AVObject`进行的。
 
-> 在 LeanCloud上，数据存储是围绕`AVObject` 进行的。
+> 在 LeanCloud 上，数据存储是围绕`AVObject` 进行的。
 
 完整的正确用法：
 
 > 在 LeanCloud 上，数据存储是围绕 `AVObject` 进行的。每个 `AVObject` 都包含了与 JSON 兼容的 key-value 对应的数据。数据是 schema-free 的，你不需要在每个 `AVObject` 上提前指定存在哪些键，只要直接设定对应的 key-value 即可。
 
-例外：「豆瓣FM」等产品名词，按照官方所定义的格式书写。
+例外：「豆瓣 FM」等产品名词，按照官方所定义的格式书写。
 
 ### 中文与数字之间需要增加空格
 
@@ -66,9 +68,9 @@ Other languages:
 
 错误：
 
-> 今天出去买菜花了 5000元。
+> 今天出去买菜花了 5000 元。
 
-> 今天出去买菜花了5000元。
+> 今天出去买菜花了 5000 元。
 
 ### 数字与单位之间无需增加空格
 
@@ -106,7 +108,7 @@ Other languages:
 
 ### `-ms-text-autospace` to the rescue?
 
-Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx) 的 CSS 属性可以实现自动为中英文之间增加空白。不过目前并未普及，另外在其他应用场景，例如 OS X、iOS 的用户界面目前并不存在这个特性，所以请继续保持随手加空格的习惯。
+Microsoft 有个 [`-ms-text-autospace`](<http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx>) 的 CSS 属性可以实现自动为中英文之间增加空白。不过目前并未普及，另外在其他应用场景，例如 OS X、iOS 的用户界面目前并不存在这个特性，所以请继续保持随手加空格的习惯。
 
 ## 标点符号
 
@@ -198,7 +200,7 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 > 使用 gitHub 登录
 
-> 使用 gｲんĤЦ8 登录
+> 使用 g ｲん ĤЦ8 登录
 
 > 我们的客户有 github、foursquare、microsoft corporation、google、facebook, inc.。
 
@@ -208,7 +210,7 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 > 我们的客户有 gitHub、fourSquare、microSoft Corporation、google、faceBook, Inc.。
 
-> 我们的客户有 gｲんĤЦ8、ｷouЯƧquﾑгє、๓เςг๏ร๏Ŧt ς๏гק๏гคtเ๏ภn、900913、ƒ4ᄃëв๏๏к, IПᄃ.。
+> 我们的客户有 g ｲん ĤЦ8、ｷ ouЯƧqu ﾑ гє、๓เςг๏ร๏Ŧt ς๏гק๏гคtเ๏ภn、900913、ƒ4ᄃëв๏๏к, IПᄃ.。
 
 注意：当网页中需要配合整体视觉风格而出现全部大写／小写的情形，HTML 中请使用标准的大小写规范进行书写；并通过 `text-transform: uppercase;`／`text-transform: lowercase;` 对表现形式进行定义。
 
@@ -253,7 +255,7 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 ## 工具
 
 | 仓库                                                                                                                            | 语言            |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| ------------------------------------------------------------------------------------------------------------------------------- | --------------- |
 | [vinta/paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing)                                                   | JavaScript      |
 | [huei90/pangu.node](https://github.com/huei90/pangu.node)                                                                       | Node.js         |
 | [huacnlee/auto-correct](https://github.com/huacnlee/auto-correct)                                                               | Ruby            |
@@ -266,24 +268,24 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 ## 谁在这样做？
 
-网站 | 文案 | UGC
---- | --- | ---
-[Apple 中国](http://www.apple.com/cn/) | Yes | N/A
-[Apple 香港](http://www.apple.com/hk/) | Yes | N/A
-[Apple 台湾](http://www.apple.com/tw/) | Yes | N/A
-[Microsoft 中国](http://www.microsoft.com/zh-cn/) | Yes | N/A
-[Microsoft 香港](http://www.microsoft.com/zh-hk/) | Yes | N/A
-[Microsoft 台湾](http://www.microsoft.com/zh-tw/) | Yes | N/A
-[LeanCloud](https://leancloud.cn/) | Yes | N/A
-[知乎](https://www.zhihu.com/) | Yes | 部分用户达成
-[V2EX](https://www.v2ex.com/) | Yes | Yes
-[SegmentFault](https://segmentfault.com/) | Yes | 部分用户达成
-[Apple4us](http://apple4us.com/) | Yes | N/A
-[豌豆荚](https://www.wandoujia.com/) | Yes | N/A
-[Ruby China](https://ruby-china.org/) | Yes | 标题达成
-[PHPHub](https://phphub.org/) | Yes | 标题达成
-[少数派](http://sspai.com/) | Yes | N/A
-[力扣 LeetCode](https://leetcode-cn.com/) | Yes | Yes
+| 网站                                              | 文案 | UGC          |
+| ------------------------------------------------- | ---- | ------------ |
+| [Apple 中国](http://www.apple.com/cn/)            | Yes  | N/A          |
+| [Apple 香港](http://www.apple.com/hk/)            | Yes  | N/A          |
+| [Apple 台湾](http://www.apple.com/tw/)            | Yes  | N/A          |
+| [Microsoft 中国](http://www.microsoft.com/zh-cn/) | Yes  | N/A          |
+| [Microsoft 香港](http://www.microsoft.com/zh-hk/) | Yes  | N/A          |
+| [Microsoft 台湾](http://www.microsoft.com/zh-tw/) | Yes  | N/A          |
+| [LeanCloud](https://leancloud.cn/)                | Yes  | N/A          |
+| [知乎](https://www.zhihu.com/)                    | Yes  | 部分用户达成 |
+| [V2EX](https://www.v2ex.com/)                     | Yes  | Yes          |
+| [SegmentFault](https://segmentfault.com/)         | Yes  | 部分用户达成 |
+| [Apple4us](http://apple4us.com/)                  | Yes  | N/A          |
+| [豌豆荚](https://www.wandoujia.com/)              | Yes  | N/A          |
+| [Ruby China](https://ruby-china.org/)             | Yes  | 标题达成     |
+| [PHPHub](https://phphub.org/)                     | Yes  | 标题达成     |
+| [少数派](http://sspai.com/)                       | Yes  | N/A          |
+| [力扣 LeetCode](https://leetcode-cn.com/)         | Yes  | Yes          |
 
 ## 参考文献
 
