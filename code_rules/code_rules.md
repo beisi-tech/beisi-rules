@@ -95,3 +95,7 @@ prettier .\index.json -w
 
 对于 Flutter 前端项目代码（Dart 语言）  
 使用 Dart 自带的 **Dark format** 工具
+
+# 关于本机ip地址
+统一写成 localhost  
+localhost跟127.0.0.1不一样，有时候会遇到跨域问题
